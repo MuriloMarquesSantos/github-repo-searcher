@@ -8,6 +8,24 @@ This is a project built with React and Typescript that accesses Github Api and f
 - Typescript
 - Styled-components
 
+## Project structure
+
+```
+Project
+├── src
+|   ├── assets: Application images, videos, gifs and others.
+│   ├── pages: Application page each containing index.txs and styles.ts file.
+│   ├── routes: Application routing.
+│   ├── services: Any service applicable, such as axios api.
+│   ├── styles: Global style.
+│   ├── App.tsx: Main application component.
+│   ├── index.tsx: React application entrypoint.
+|
+├── tsconfig.json: Typescript compiler configurations
+├── package.json: File that manages all the dependecies and contains script definitions.
+
+```
+
 ## How to build and run
 
 - ```yarn```
